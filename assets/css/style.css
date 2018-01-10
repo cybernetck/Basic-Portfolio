@@ -1,0 +1,54 @@
+/*
+CSS for main homepage
+*/
+
+#wrapper {
+
+}
+
+
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    width: 100%;
+    padding-top:40px;
+}
+
+#header h1 {
+    font-size: 50px;
+    float:left;
+    margin-left: 80px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+
+    padding-right:10px;
+    padding-left:10px;
+    margin-top:20px;
+    float:right;
+  
+}
+
+li a {
+    text-decoration-line: none;
+    color:#000;
+}
+
+.active {
+    background-color: rgb(142, 248, 146);
+}
+#menu {
+
+   padding-right:100px;
+}
+
+#main {
+    background-color: #ccc;
+    height: 600px;
+    width: 100%;
+}
