@@ -54,9 +54,14 @@ li a:hover {
 
 li a {
     text-decoration-line: none;
-    line-height: 150%;
+    text-align: center;
+    /* line-height: 150%; */
     color:#000;
-    height: 80px;
+    height: 40px;
+    display: block;
+    width: 60px;
+    padding: 2px 12px;
+    
 }
 
 /* .active {
@@ -86,6 +91,7 @@ li a {
     top: 40px;
     left: 80px;
     padding: 20px 20px 0px 20px;
+    text-align: center;
 }
 
 h2 {
@@ -159,7 +165,7 @@ hr {
 
 .text_overlay:hover{
     opacity: 1.0;
-    transition-duration: 1000ms;
+    transition-duration: 800ms;
 }
 
 #connect {
@@ -167,14 +173,20 @@ hr {
     top: 40px;
     right: 140px;
     background-color:#fff;
-    width: 250px;
+    width: 300px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
 #connect img {
     width: 100px;
-    /* float: left; */
+}
+
+#connect a:hover{
+    width: 200px;
+    height: 200px;
+    transition-duration: 800ms;
 }
 
 .footer {
