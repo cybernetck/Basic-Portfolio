@@ -76,18 +76,19 @@ li a {
     left: 80px;
     padding: 20px 20px 0px 20px;
 }
+
 #about_me strong {
     font-weight: bold;
 }
 
+#about_me img {
+    float:left;
+    padding-right: 20px;
+  }
+  
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-}
-
-img {
-  float:left;
-  padding-right: 20px;
 }
 
 hr {
